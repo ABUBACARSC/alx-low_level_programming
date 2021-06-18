@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**Just check the code and undeestand it
+*no more description
+*/
 int main(void)
 {
 int a, b, c, d;
