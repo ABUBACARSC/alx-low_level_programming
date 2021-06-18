@@ -1,40 +1,48 @@
 #include <stdio.h>
-
+/* betty style doc for function main goes there */
 /**
-* main - Prints multiple combinations
-* Description: Write a program that prints all possible
-* Return: 0
-*/
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int a, b, c, d;
-
-for (a = '0'; a <= '9'; a++)
-{
-for (b = '0'; b <= '9'; b++)
-}
-for (c = '0'; c <= '9'; c++)
-{
-for (d = '0'; d <= '9'; d++)
-}
-if ((a < c) || (a == c && b < d))
-{
-put(a);
-put(b);
-put(' ');
-put(c);
-put(d);
-if (!(a == '9' && b == '8'))
-}
-put(',');
-putchar(' ');
-}
-}
-}
-}
-}
-}
-put('\n');
-return (0);
+  int i = 48, j = 48, y = 48, z = 49;
+  while (i < 58)
+    {
+      while (j < 58)
+	{
+	  while (y < 58)
+	    {
+	      while (z < 58)
+		{
+		  putchar(i);
+		  putchar(j);
+		  putchar(' ');
+		  putchar(y);
+		  putchar(z);
+		  if (!(i == 57 &&
+j == 56 &&
+y == 57 &&
+			z == 57))
+		    {
+		      putchar(',');
+		      putchar(' ');
+		    }
+		  z++;
+		}
+	      y++;
+	      z = 48;
+	    }
+	  j++;
+	  y = i;
+	  z = j + 1;
+	}
+      i++;
+      j = 48;
+      y = i;
+      z = j + 1;
+    }
+  putchar('\n');
+  return (0);
 }
