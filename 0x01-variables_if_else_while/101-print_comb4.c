@@ -1,5 +1,6 @@
 #include <stdio.h>
-/**Just check the code and undeestand it
+/**
+*Just check the code and undeestand it
 *no more description
 */
 int main(void)
