@@ -1,2 +1,3 @@
 *of course not empty*
-zinazo mawa
+zinazo maw
+Trying aslo to edit with vim editoa
