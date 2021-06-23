@@ -3,7 +3,7 @@
 *  * print_alphabet_x10 - print entire alphabet on 10 lines
 *   *
 *    * Return: Void.
-*     
+*
 */
 
 void print_alphabet_x10(void)
