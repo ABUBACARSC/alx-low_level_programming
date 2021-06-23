@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *main:check the code for Holberton School students.
-* 
+*ths code prints holberton 
 *Return: Always 0.
 *     
 */
