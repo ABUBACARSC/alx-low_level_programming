@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include "string.h"
 /*
-*  * print_alphabet - print entire alphabet
+*print_alphabet - print entire alphabet
 *   *
 *    * Return: Void.
-*     
+* 
 */
 void print_alphabet(void)
 {
