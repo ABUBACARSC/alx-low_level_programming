@@ -1,4 +1,4 @@
-nclude "holberton.h"
+include "holberton.h"
 /**
 *  * _islower - checks if letter is lowercase
 *   * @c: integer from which to check whether references a lowercase letter or not
