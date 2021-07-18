@@ -1,3 +1,4 @@
+#include <stdio>
 #include "holberton.h"
 /**
 *  *times_table- prints every minute of the day of Jack Bauer,
@@ -9,12 +10,12 @@
 void times_table(void)
 {
 int n, x, y;
-for (n = 0; n<=9; n++)
+for (n = 0; n <= 9; n++)
 {
 for (x = 0; x <= 9; x++)
 {
-y = x*n;
-_putchar(y);
+y = x * n;
+putchar(y);
 _putchar(',');
 }
 _putchar('\n');
