@@ -1,4 +1,4 @@
-#include "holbertom.h"
+#include "holberton.h"
 
 /**
 *  * _islower - chehcks if letter is lowercase
