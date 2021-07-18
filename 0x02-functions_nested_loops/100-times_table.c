@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* print_to_98 - prints last digit of number
+* print_times_table - prints last digit of number
 * @n: number to print last digit of
 *
 * Return: the last digit as an int
@@ -9,7 +9,7 @@
 
 void print_times_table(int n)
 {
-int a, b, c, d;
+int a, b, e, d;
 d = n - 1;
 if (a >= 0 && a <= 15)
 {
@@ -22,10 +22,10 @@ _putchar(99);
 _putchar(44);
 _putchar(32);
 }
-int e = a * n;
+e = a * n;
 _putchar(101);
-_putchar('\n')
+_putchar('\n');
 }
 }
 }
-
+ 
