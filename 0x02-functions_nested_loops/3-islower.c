@@ -1,10 +1,10 @@
-#include "holberton.h"
-#include <ctype.h>
+#include "holbertom.h"
+
 /**
-*  * _islower - checks if letter is lowercase
+*  * _islower - chehcks if letter is lowercase
 *   * @c: integer from which to check whether references a lowercase letter or not
 *    * Return: Void.
-*
+
 */
 
 int _islower(int c)
