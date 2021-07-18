@@ -16,7 +16,7 @@ while (n < 98)
 printf("%d, ", n);
 n++;
 }
-printf("%d", 98);
+printf("%d ", 98);
 }
 else if (n > 98)
 {
@@ -25,10 +25,10 @@ while (n > 98)
 printf("%d, ", n);
 n--;
 }
-printf("%d", 98);
+printf("%d ", 98);
 }
 else
 {
-printf("%d", n);
+printf("%d ", n);
 }
 }
