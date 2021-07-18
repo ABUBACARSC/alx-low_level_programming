@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include "holberton.h"
 /**
 *  *times_table- prints every minute of the day of Jack Bauer,
