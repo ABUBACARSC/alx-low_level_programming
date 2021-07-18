@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
 * print_to_98 - prints last digit of number
 * @n: number to print last digit of
