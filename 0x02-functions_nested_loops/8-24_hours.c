@@ -7,7 +7,7 @@
 
 void jack_bauer(void)
 {
-int hour, hour2, minute1, minute2;
+int hour, hour2, minute, minute2;
 for (hour =0; hour<24; hour++)
 {
 for (minute=0; minute<=60; minute++)
