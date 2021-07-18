@@ -13,22 +13,20 @@ if (n < 98)
 {
 while (n < 99)
 {
-_putchar(n);
-_putchar(',');
-_putchar(' ');
+printf("%d, ", n);
 n++;
 }
 }
 else if (n > 98)
 {
-while (n > 97){
-_putchar(n);
-_putchar(',');
-_putchar(' ');
+while (n > 97)
+{
+printf("%d, ", n);
 n--;
 }
 }
-else {
-_putchar (n);
+else 
+{
+printf("%d", 98);
 }
 }
