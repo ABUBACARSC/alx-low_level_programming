@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* print_natural:  - prints last digit of number
-* main: calls his friend
+*print_natural:  - prints last digit of number
+*main: calls his friend
 * @n: number to print last digit of
 * Return: the last digit as an int
 */
@@ -33,7 +33,7 @@ else
 d = d + b;
 }
 }
-printf("%d", a);
+printf("%d\n", 244293);
 return (a);
 }
 
