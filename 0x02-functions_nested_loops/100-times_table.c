@@ -18,13 +18,10 @@ for ( a = 0; a <= n; a++)
 for (b = 0; b <= d; b++)
 {
 c = a * b;
-_putchar(99);
-_putchar(44);
-_putchar(32);
+printf("%d, ", c);
 }
 e = a * n;
-_putchar(101);
-_putchar('\n');
+printf("%d\n", e);
 }
 }
 }
