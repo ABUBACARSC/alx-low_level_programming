@@ -5,9 +5,9 @@
 * @n: number to print last digit of
 * Return: the last digit as an int
 */
-void main (void)
+int main (void)
 {
-int a;
+int a, n;
 a = 0;
 for (n = 0; n <= 1023; n++)
 {
@@ -17,5 +17,6 @@ a = a + n;
 }
 }
 printf("%d", a);
+return(a);
 }
 
