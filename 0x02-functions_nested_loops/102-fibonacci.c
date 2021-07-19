@@ -12,8 +12,8 @@ unsigned long a, b, c;
 int counter;
 counter = 0;
 a = 0;
-printf("%ld, ", a);
 b = 1;
+printf("%ld, ", b);
 c = a + b;
 while (counter <= 48)
 {
