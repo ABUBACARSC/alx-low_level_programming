@@ -10,7 +10,7 @@ int main (void)
 {
 int counter;
 counter = 0;
-int a, b, c, d;
+int a, b, c;
 a = 0;
 b = 1;
 c = a + b;
@@ -20,10 +20,11 @@ a = b;
 b = c;
 c = a + b;
 counter++;
-printf("%d" c);
+printf("%d", c);
 if (counter <= 50)
 printf(", ");
 }
 printf("\n");
+return(0);
 }
 
