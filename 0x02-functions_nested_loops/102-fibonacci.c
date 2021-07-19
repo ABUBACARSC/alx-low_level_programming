@@ -8,9 +8,9 @@
 * */
 int main (void)
 {
+int a, b, c;
 int counter;
 counter = 0;
-int a, b, c;
 a = 0;
 b = 1;
 c = a + b;
