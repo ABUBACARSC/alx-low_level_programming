@@ -5,13 +5,14 @@
 * *main: calls his friend
 * * @n: number to print last digit of
 * * Return: the last digit as an int
-* */
-int main (void)
+*/
+int main(void)
 {
 unsigned long a, b, c;
 int counter;
 counter = 0;
 a = 0;
+printf("%ld, ", a);
 b = 1;
 c = a + b;
 while (counter <= 48)
@@ -25,6 +26,6 @@ if (counter <= 48)
 printf(", ");
 }
 printf("\n");
-return(0);
+return (0);
 }
 
