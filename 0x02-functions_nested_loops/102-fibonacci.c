@@ -14,7 +14,7 @@ counter = 0;
 a = 0;
 b = 1;
 c = a + b;
-while (counter <= 50)
+while (counter <= 48)
 {
 a = b;
 b = c;
