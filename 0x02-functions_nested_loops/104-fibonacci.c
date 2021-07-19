@@ -7,7 +7,7 @@ int main(void)
 {
 unsigned long a, b, c;
 
-int counter
+int counter;
 counter = 3;
 a = 1;
 b = 2;
