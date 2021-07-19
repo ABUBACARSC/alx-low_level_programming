@@ -21,7 +21,7 @@ b = c;
 c = a + b;
 counter++;
 printf("%ld", c);
-if (counter <= 50)
+if (counter <= 48)
 printf(", ");
 }
 printf("\n");
