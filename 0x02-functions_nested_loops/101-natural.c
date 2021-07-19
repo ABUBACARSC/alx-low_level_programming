@@ -7,10 +7,10 @@
 */
 int print_natural(int n);
 
-int main (void)
+int main(void)
 {
 print_natural(1023);
-return(0);
+return (0);
 }
 
 int print_natural(int n)
@@ -21,7 +21,7 @@ d = 0;
 for (c = 0; c <= n; c++)
 {
 b = c;
-if (b%3 == 0 && b%5 == 0)
+if (b % 3 == 0 && b % 5 == 0)
 {
 a = a + b;
 }
@@ -29,8 +29,8 @@ else
 {
 d = d + b;
 }
-printf("%d", a);
 }
-return(a);
+printf("%d", a);
+return (a);
 }
 
