@@ -8,7 +8,7 @@
 */
 
 
-void more_numbers(void)
+int more_numbers(void)
 
 {
 int i, j;
@@ -20,5 +20,6 @@ _putchar(j);
 }
 _putchar("/n");
 }
+return (0);
 }
 
