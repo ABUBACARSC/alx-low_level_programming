@@ -1,7 +1,4 @@
 #ifndef SUM
-int SUM(int a, int b)
-{
-int s;
-s = a + b;
-}
+#define DOUBLESUMGUARD
+#define SUM(x, y) (x + y)
 #endif
