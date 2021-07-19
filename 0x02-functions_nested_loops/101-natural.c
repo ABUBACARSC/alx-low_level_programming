@@ -17,6 +17,7 @@ int print_natural(int n)
 {
 int a, b, c, d;
 a = 0;
+d = 0;
 for (c = 0; c <= n; c++)
 {
 b = c;
@@ -29,7 +30,7 @@ else
 d = d + b;
 }
 printf("%d", a);
-return(a);
 }
+return(a);
 }
 
