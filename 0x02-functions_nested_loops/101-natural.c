@@ -5,18 +5,18 @@
 * @n: number to print last digit of
 * Return: the last digit as an int
 */
-int main (void)
+char main (void)
 {
 int a, n;
 a = 0;
 for (n = 0; n <= 1023; n++)
 {
-if (n % 3 == 0 && n % 5 = 0)
+if (n%3 == 0 && n%5 = 0)
 {
 a = a + n;
 }
 }
 printf("%d", a);
-return(a);
+return('SUCCESS');
 }
 
