@@ -10,7 +10,6 @@ a = 1;
 b = 2;
 c = 0;
 d = 0;
-printf ("%ld, %ld, ", a, b);
 while (c <= 4000000)
 {
 c = a + b;
@@ -21,7 +20,7 @@ d = d + c;
 a = b;
 b = c;
 }
-printf("%d\n", d);
+printf("%ld\n", d);
 return (0);
 }
 
