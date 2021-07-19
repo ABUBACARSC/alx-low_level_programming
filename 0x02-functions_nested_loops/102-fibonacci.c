@@ -20,7 +20,7 @@ a = b;
 b = c;
 c = a + b;
 counter++;
-printf("%d", c);
+printf("%ld", c);
 if (counter <= 50)
 printf(", ");
 }
