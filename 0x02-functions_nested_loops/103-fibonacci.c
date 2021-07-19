@@ -9,7 +9,7 @@ unsigned long a, b, c, d;
 a = 1;
 b = 2;
 c = 0;
-d = 0;
+d = 2;
 while (c <= 4000000)
 {
 c = a + b;
